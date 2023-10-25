@@ -1,3 +1,1 @@
-This is my personal website.
-
-Web: https://johnnymei.github.io/
+personal website: https://johnnymei.github.io/
