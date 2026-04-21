@@ -4,6 +4,9 @@ table#tlayout {
     border: none;
     border-collapse: separate;
     background: white;
+    width: 100%;
+    max-width: 1180px;
+    margin: 24px auto;
 }
 
 body {
@@ -16,25 +19,21 @@ body {
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
-	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-top: 0.8em;
+	padding-left: 12px;
+	padding-right: 12px;
 	font-size: 1.0em;
-	width: auto;
+	width: 230px;
+	min-width: 230px;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
 }
 
-#layout-menu td {
-	background: #f4f4f4;
-    vertical-align: top;
-}
-
 #layout-content {
 	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding-left: 1.2em;
+	padding-right: 1.2em;
     border: none;
     background: white;
     text-align: left;
@@ -365,4 +364,12 @@ img {
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+#layout-menu .visitor-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.3;
 }
